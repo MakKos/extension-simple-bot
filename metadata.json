@@ -1,0 +1,8 @@
+{
+  "name": "Simple Bot (helper: all-all)",
+  "type": "helper",
+  "properties": {
+    "user_type": "all",
+    "component": "all"
+  }
+}
