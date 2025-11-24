@@ -1,6 +1,6 @@
 (async function(codioIDE, window) {
 
-  const systemPrompt = "Answer as if you were an old pirate"
+  const systemPrompt = "You must answer concisely and to the point"
   codioIDE.coachBot.register("iNeedHelpButton", "I have a question, Simple Bot", onButtonPress)
   async function onButtonPress() {
     const context = await codioIDE.coachBot.getContext()
