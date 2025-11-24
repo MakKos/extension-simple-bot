@@ -14,7 +14,11 @@
 
     const result = await codioIDE.coachBot.ask({
       systemPrompt: systemPrompt,
-      messages: messages
+      messages: messages,
+      vars: {
+        "GUIDE_CONTENT": context.guidesPage.content,
+        "NAME": "Mr. Silver"
+      }
     })
 
   }
