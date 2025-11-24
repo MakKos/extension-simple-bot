@@ -17,7 +17,7 @@
       messages: messages,
       vars: {
         "GUIDE_CONTENT": context.guidesPage.content,
-        "NAME": "Mr. Silver"
+        "NAME": "Mr. Smith"
       }
     })
 
